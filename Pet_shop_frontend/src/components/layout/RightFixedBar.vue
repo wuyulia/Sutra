@@ -1,7 +1,7 @@
 <template>
   <div class="right-fixed-bar">
     <!-- 购物车 -->
-    <div class="bar-item cart-item">
+    <div class="bar-item cart-item" @click="goToCart">
       <i class="fas fa-shopping-bag"></i>
       <span>购物车</span>
     </div>
@@ -67,6 +67,11 @@ const goToSurvey = () => {
   
   // 方式 B: 如果是外部问卷链接（如问卷星、腾讯问卷）
   // window.open('https://your-survey-link.com', '_blank')
+}
+
+// 跳转到购物车页面的函数
+const goToCart = () => {
+  router.push('/cart')
 }
 
 const toggleCustomerService = () => {

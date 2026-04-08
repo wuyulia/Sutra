@@ -39,9 +39,11 @@
         精选服务
         <span>在线预约 <i class="fas fa-angle-right"></i></span>
       </h3>
-
+    
       <!-- 服务金刚区导航组件 -->
       <ServiceNavBar :serviceCategories="serviceCategories" />
+      <!-- 服务金刚区导航组件 -->
+      <PromotionGrid />
 
     </div>
 
@@ -88,6 +90,7 @@ import {
   FooterBar,
   ServicesBar,
   RightFixedBar,
+  PromotionGrid,
 } from '@/components'
 
 // --- 所有数据保持不变 ---

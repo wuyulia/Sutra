@@ -9,7 +9,7 @@
           <a href="#">APP下载</a>
         </div>
         <div class="right-nav">
-          <a href="#"><i class="fas fa-shopping-cart"></i> 购物车 (0)</a>
+          <a href="javascript:void(0)" @click="goToCart"><i class="fas fa-shopping-cart"></i> 购物车 (0)</a>
           <span style="margin:0 10px"></span>
           <a href="#">我的订单</a>
         </div>
@@ -66,6 +66,12 @@ const router = useRouter()
 // ==========================================
 const goLogin = () => {
   router.push('/')
+}
+
+// 新增：跳转到购物车页面
+// ==========================================
+const goToCart = () => {
+  router.push('/cart')
 }
 
 // ==========================================

@@ -1,0 +1,7 @@
+export { default as ProductCard } from './ProductCard.vue'
+export { default as ProductGallery } from './ProductGallery.vue'
+export { default as ProductInfo } from './ProductInfo.vue'
+export { default as ProductParamsTable } from './ProductParamsTable.vue'
+export { default as ProductTabs } from './ProductTabs.vue'
+export { default as ShopInfoCard } from './ShopInfoCard.vue'
+export { default as UserReviewList } from './UserReviewList.vue'

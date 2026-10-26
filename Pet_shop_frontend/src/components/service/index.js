@@ -1,0 +1,7 @@
+export { default as CustomerServicePopup } from './CustomerServicePopup.vue'
+export { default as FaqList } from './FaqList.vue'
+export { default as OnlineService } from './OnlineService.vue'
+export { default as ServiceCard } from './ServiceCard.vue'
+export { default as ServiceNavBar } from './ServiceNavBar.vue'
+export { default as ServiceTags } from './ServiceTags.vue'
+export { default as ServicesBar } from './ServicesBar.vue'
